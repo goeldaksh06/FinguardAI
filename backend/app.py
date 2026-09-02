@@ -342,7 +342,17 @@ def news_sentiment(ticker: str):
             "note": "No headlines found for this ticker.",
         }
 
-    scored = score_headlines(headlines)
+    try:
+        scored = score_headlines(headlines)
+    except ImportError:
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "News sentiment (FinBERT) is not available in this deployment — torch/transformers "
+                "were intentionally excluded to fit a lightweight hosting tier. Every other endpoint "
+                "is unaffected. Run this locally with the full requirements.txt for sentiment scoring."
+            ),
+        )
     summary = sentiment_summary(scored)
 
     price_change_pct = None

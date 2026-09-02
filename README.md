@@ -156,6 +156,28 @@ governance risk as unavailable (not a fake zero) until you run `scripts/sec_fili
 `scripts/add_filings.py` to collect more. The forecast model (`backend/model/forecast_model.joblib`)
 is a pre-trained artifact and works for any ticker immediately.
 
+## Deployment
+
+**Frontend (Vercel):** deploy `frontend/` as a static Vite build. Set an environment variable
+`VITE_API_BASE` pointing at your deployed backend's URL (e.g. `https://finguard-api.onrender.com`)
+— without it, the frontend defaults to `http://localhost:8000` for local development.
+
+**Backend (Render, or any host that runs a long-lived Python process):**
+- Root directory: `backend/`
+- Build command: `pip install -r ../requirements-deploy.txt`
+- Start command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+- Environment variable: `groq_api_key` isn't read from the environment directly — set it in
+  `config/api_keys.yaml` on the host, or export `GROQ_API_KEY` (both are checked).
+
+`requirements-deploy.txt` is a lean build that excludes `torch`/`transformers` (FinBERT), so it
+fits comfortably on a free-tier instance (~512MB RAM). Every endpoint works except
+`/api/news-sentiment`, which returns a clear 503 explaining why rather than crashing the server.
+For full functionality including sentiment scoring, use `requirements.txt` on a host with more
+memory (roughly 1-2GB+).
+
+Vercel is not suitable for the backend itself — its serverless functions cap deployment size well
+below what `torch`/`transformers`/`xgboost`/`pandas` need together.
+
 ## Notes on scope
 
 FinGuard prioritizes real data and honest signal quality over feature breadth:
