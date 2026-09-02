@@ -1,0 +1,130 @@
+{
+  "ticker": "AAPL",
+  "formType": "8-K",
+  "accessionNo": "0001140361-25-018400",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_8k.htm",
+  "description": "Form 8-K - Current report - Item 8.01 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/0001140361-25-018400.txt",
+  "filedAt": "2025-05-12T16:30:28-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "49403",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000114036125018400/ef20048691_8k.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "194969",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_ex1-1.htm",
+      "description": "EXHIBIT 1.1",
+      "type": "EX-1.1"
+    },
+    {
+      "sequence": "3",
+      "size": "283600",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_ex4-1.htm",
+      "description": "EXHIBIT 4.1",
+      "type": "EX-4.1"
+    },
+    {
+      "sequence": "4",
+      "size": "21951",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_ex5-1.htm",
+      "description": "EXHIBIT 5.1",
+      "type": "EX-5.1"
+    },
+    {
+      "sequence": "9",
+      "size": "17830",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/image00001.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "10",
+      "size": "3567",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/image00002.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "11",
+      "size": "1264",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/logo_apple.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "887109",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/0001140361-25-018400.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-05-05",
+  "entities": [
+    {
+      "fiscalYearEnd": "0927",
+      "stateOfIncorporation": "CA",
+      "act": "34",
+      "cik": "320193",
+      "fileNo": "001-36743",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "8-K",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "25935352",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "4910dbd827f57ec4aa60d1bad5f2f8d4",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 8.01: Other Events",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/0001140361-25-018400-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "5",
+      "size": "5841",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/aapl-20250505.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "6",
+      "size": "19691",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/aapl-20250505_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "7",
+      "size": "33515",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/aapl-20250505_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "8",
+      "size": "21647",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/aapl-20250505_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "23",
+      "size": "13666",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_8k_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "ticker": "MSFT",
+  "formType": "8-K",
+  "accessionNo": "0001193125-25-154103",
+  "cik": "789019",
+  "companyNameLong": "MICROSOFT CORP (Filer)",
+  "companyName": "MICROSOFT CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
+  "description": "Form 8-K - Current report - Item 5.03 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/0001193125-25-154103.txt",
+  "filedAt": "2025-07-01T17:00:47-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "27368",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "108972",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624dex32.htm",
+      "description": "EX-3.2",
+      "type": "EX-3.2"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "322767",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/0001193125-25-154103.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-07-01",
+  "entities": [
+    {
+      "fiscalYearEnd": "0630",
+      "stateOfIncorporation": "WA",
+      "act": "34",
+      "cik": "789019",
+      "fileNo": "001-37845",
+      "irsNo": "911144442",
+      "companyName": "MICROSOFT CORP (Filer)",
+      "type": "8-K",
+      "sic": "7372 Services-Prepackaged Software",
+      "filmNo": "251097251",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "a3bfab220dd079c8eaa22253bead63e2",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/0001193125-25-154103-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "3",
+      "size": "3951",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/msft-20250701.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "4",
+      "size": "14164",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/msft-20250701_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "5",
+      "size": "23844",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/msft-20250701_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "6",
+      "size": "14991",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/msft-20250701_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "16",
+      "size": "7631",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

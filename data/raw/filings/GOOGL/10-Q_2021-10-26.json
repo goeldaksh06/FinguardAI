@@ -1,0 +1,113 @@
+{
+  "ticker": "GOOGL",
+  "formType": "10-Q",
+  "accessionNo": "0001652044-21-000057",
+  "cik": "1652044",
+  "companyNameLong": "Alphabet Inc. (Filer)",
+  "effectivenessDate": "2021-09-30",
+  "companyName": "Alphabet Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/0001652044-21-000057.txt",
+  "filedAt": "2021-10-26T19:47:06-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "2548022",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1652044/000165204421000057/goog-20210930.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "11024",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/googexhibit3101q32021.htm",
+      "description": "EX-31.01",
+      "type": "EX-31.01"
+    },
+    {
+      "sequence": "3",
+      "size": "11055",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/googexhibit3102q32021.htm",
+      "description": "EX-31.02",
+      "type": "EX-31.02"
+    },
+    {
+      "sequence": "4",
+      "size": "9538",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/googexhibit3201q32021.htm",
+      "description": "EX-32.01",
+      "type": "EX-32.01"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "11760233",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/0001652044-21-000057.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2021-09-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "1652044",
+      "fileNo": "001-37580",
+      "irsNo": "611767919",
+      "companyName": "Alphabet Inc. (Filer)",
+      "type": "10-Q",
+      "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+      "filmNo": "211350220"
+    }
+  ],
+  "id": "1025d52fcf7f5a24f634d36f15730a10",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/0001652044-21-000057-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "5",
+      "size": "57673",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "6",
+      "size": "124032",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "7",
+      "size": "350237",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "8",
+      "size": "791968",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "9",
+      "size": "527179",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "10",
+      "size": "2664733",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000057/goog-20210930_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

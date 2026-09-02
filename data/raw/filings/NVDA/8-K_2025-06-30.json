@@ -1,0 +1,81 @@
+{
+  "ticker": "NVDA",
+  "formType": "8-K",
+  "accessionNo": "0001045810-25-000179",
+  "cik": "1045810",
+  "companyNameLong": "NVIDIA CORP (Filer)",
+  "companyName": "NVIDIA CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.htm",
+  "description": "Form 8-K - Current report - Item 5.07",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/0001045810-25-000179.txt",
+  "filedAt": "2025-06-30T18:35:29-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "71778",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "191561",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/0001045810-25-000179.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-06-25",
+  "entities": [
+    {
+      "fiscalYearEnd": "0125",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "1045810",
+      "fileNo": "000-23985",
+      "irsNo": "943177549",
+      "companyName": "NVIDIA CORP (Filer)",
+      "type": "8-K",
+      "sic": "3674 Semiconductors &amp; Related Devices",
+      "filmNo": "251093663",
+      "undefined": "04 Manufacturing)"
+    }
+  ],
+  "id": "e79d5f880d889a85daf27fb782527d87",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.07: Submission of Matters to a Vote of Security Holders"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/0001045810-25-000179-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "2",
+      "size": "2125",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "3",
+      "size": "22403",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "4",
+      "size": "13326",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "14",
+      "size": "2711",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

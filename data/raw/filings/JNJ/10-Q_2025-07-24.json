@@ -1,0 +1,192 @@
+{
+  "ticker": "JNJ",
+  "formType": "10-Q",
+  "accessionNo": "0000200406-25-000178",
+  "cik": "200406",
+  "companyNameLong": "JOHNSON & JOHNSON (Filer)",
+  "companyName": "JOHNSON & JOHNSON",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/0000200406-25-000178.txt",
+  "filedAt": "2025-07-24T16:04:24-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "2773584",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/200406/000020040625000178/jnj-20250629.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "8445",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/a20252qex311ceocertificati.htm",
+      "description": "EX-31.1 CEO",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "3",
+      "size": "8405",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/a20252qex312cfocertificati.htm",
+      "description": "EX-31.2 CFO",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "4",
+      "size": "4695",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/a20252qex321ceocertificati.htm",
+      "description": "EX-32.1 CEO",
+      "type": "EX-32.1"
+    },
+    {
+      "sequence": "5",
+      "size": "4574",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/a20252qex322cfocertificati.htm",
+      "description": "EX-31.2 CFO",
+      "type": "EX-32.2"
+    },
+    {
+      "sequence": "11",
+      "size": "24354",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "12",
+      "size": "19506",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g10.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "13",
+      "size": "17543",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g11.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "14",
+      "size": "18292",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g12.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "15",
+      "size": "33257",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g2.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "16",
+      "size": "23015",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g3.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "17",
+      "size": "32612",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g4.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "18",
+      "size": "24282",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g5.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "19",
+      "size": "18233",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g6.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "20",
+      "size": "14986",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g7.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "21",
+      "size": "17009",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g8.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "22",
+      "size": "15232",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_g9.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "14566555",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/0000200406-25-000178.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-06-29",
+  "entities": [
+    {
+      "fiscalYearEnd": "1228",
+      "stateOfIncorporation": "NJ",
+      "act": "34",
+      "cik": "200406",
+      "fileNo": "001-03215",
+      "irsNo": "221024240",
+      "companyName": "JOHNSON & JOHNSON (Filer)",
+      "type": "10-Q",
+      "sic": "2834 Pharmaceutical Preparations",
+      "filmNo": "251146900",
+      "undefined": "03 Life Sciences)"
+    }
+  ],
+  "id": "4c2357ec808cee77a5334c2a2ea1cbf0",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/0000200406-25-000178-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "6",
+      "size": "74911",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "7",
+      "size": "101178",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "8",
+      "size": "378873",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "9",
+      "size": "884924",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "10",
+      "size": "610608",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "99",
+      "size": "3158765",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

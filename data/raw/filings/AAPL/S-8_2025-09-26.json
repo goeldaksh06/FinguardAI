@@ -1,0 +1,95 @@
+{
+  "ticker": "AAPL",
+  "formType": "S-8",
+  "accessionNo": "0001140361-25-036310",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "effectivenessDate": "2025-09-26",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/ef20049213_s8.htm",
+  "description": "Form S-8 - Securities to be offered to employees in employee benefit plans",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/0001140361-25-036310.txt",
+  "filedAt": "2025-09-26T16:30:59-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "77360",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/ef20049213_s8.htm",
+      "description": "S-8",
+      "type": "S-8"
+    },
+    {
+      "sequence": "2",
+      "size": "10961",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/ef20049213_ex5-1.htm",
+      "description": "EXHIBIT 5.1",
+      "type": "EX-5.1"
+    },
+    {
+      "sequence": "3",
+      "size": "2373",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/ef20049213_ex23-2.htm",
+      "description": "EXHIBIT 23.2",
+      "type": "EX-23.2"
+    },
+    {
+      "sequence": "4",
+      "size": "21767",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000114036125036310/ef20049213_ex107.htm",
+      "type": "EX-FILING FEES"
+    },
+    {
+      "sequence": "5",
+      "size": "120959",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/image00001.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "6",
+      "size": "17830",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/image00002.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "7",
+      "size": "3313",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/image00003.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "428150",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/0001140361-25-036310.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "entities": [
+    {
+      "fiscalYearEnd": "0927",
+      "stateOfIncorporation": "CA",
+      "act": "33",
+      "cik": "320193",
+      "fileNo": "333-290545",
+      "irsNo": "942404110",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "S-8",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "251350987",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "2061bce5eacfe34d5e979b0bf120ad25",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/0001140361-25-036310-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "20",
+      "size": "5100",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125036310/ef20049213_ex107_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

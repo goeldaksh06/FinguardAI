@@ -1,0 +1,99 @@
+{
+  "ticker": "MSFT",
+  "formType": "10-Q",
+  "accessionNo": "0001193125-25-256321",
+  "cik": "789019",
+  "companyNameLong": "MICROSOFT CORP (Filer)",
+  "companyName": "MICROSOFT CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/0001193125-25-256321.txt",
+  "filedAt": "2025-10-29T16:10:48-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "5597461",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "6187",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-ex15_1.htm",
+      "description": "EX-15.1",
+      "type": "EX-15.1"
+    },
+    {
+      "sequence": "3",
+      "size": "12455",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-ex31_1.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "4",
+      "size": "12657",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-ex31_2.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "5",
+      "size": "8216",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-ex32_1.htm",
+      "description": "EX-32.1",
+      "type": "EX-32.1"
+    },
+    {
+      "sequence": "6",
+      "size": "8344",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-ex32_2.htm",
+      "description": "EX-32.2",
+      "type": "EX-32.2"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "24565853",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/0001193125-25-256321.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-09-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "0630",
+      "stateOfIncorporation": "WA",
+      "act": "34",
+      "cik": "789019",
+      "fileNo": "001-37845",
+      "irsNo": "911144442",
+      "companyName": "MICROSOFT CORP (Filer)",
+      "type": "10-Q",
+      "sic": "7372 Services-Prepackaged Software",
+      "filmNo": "251430079",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "5e69b5460f4e1d63284ac24f413f11b7",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/0001193125-25-256321-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "7",
+      "size": "1492189",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA WITH EMBEDDED LINKBASES DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "104",
+      "size": "7440319",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

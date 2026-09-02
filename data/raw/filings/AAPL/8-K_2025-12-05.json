@@ -1,0 +1,95 @@
+{
+  "ticker": "AAPL",
+  "formType": "8-K",
+  "accessionNo": "0001140361-25-044561",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm",
+  "description": "Form 8-K - Current report - Item 5.02",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/0001140361-25-044561.txt",
+  "filedAt": "2025-12-05T16:31:42-05:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "37881",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "6",
+      "size": "1264",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/logo_apple.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "238615",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/0001140361-25-044561.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-12-04",
+  "entities": [
+    {
+      "fiscalYearEnd": "0926",
+      "stateOfIncorporation": "CA",
+      "act": "34",
+      "cik": "320193",
+      "fileNo": "001-36743",
+      "irsNo": "942404110",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "8-K",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "251553428",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "b231674cfca0e991b024e8f76349669f",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/0001140361-25-044561-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "2",
+      "size": "5438",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/aapl-20251204.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "3",
+      "size": "19669",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/aapl-20251204_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "4",
+      "size": "29950",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/aapl-20251204_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "5",
+      "size": "22139",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/aapl-20251204_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "17",
+      "size": "11693",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ticker": "JPM",
+  "formType": "10-Q",
+  "accessionNo": "0000019617-25-000615",
+  "cik": "19617",
+  "companyNameLong": "JPMORGAN CHASE & CO (Filer)",
+  "companyName": "JPMORGAN CHASE & CO",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/0000019617-25-000615.txt",
+  "filedAt": "2025-08-05T16:18:22-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "11426735",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/19617/000001961725000615/jpm-20250630.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "6877",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/corpq22025exhibit15.htm",
+      "description": "EX-15",
+      "type": "EX-15"
+    },
+    {
+      "sequence": "3",
+      "size": "3621",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/corpq22025exhibit22.htm",
+      "description": "EX-22",
+      "type": "EX-22"
+    },
+    {
+      "sequence": "4",
+      "size": "8162",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/corpq22025exhibit311.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "5",
+      "size": "8130",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/corpq22025exhibit312.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "6",
+      "size": "9904",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/corpq22025exhibit32.htm",
+      "description": "EX-32",
+      "type": "EX-32"
+    },
+    {
+      "sequence": "12",
+      "size": "288647",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "13",
+      "size": "51634",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_g2.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "14",
+      "size": "50333",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_g3.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "15",
+      "size": "8845",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_g4.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "16",
+      "size": "12475",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_g5.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "17",
+      "size": "8845",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/newlogo.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "50321066",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/0000019617-25-000615.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-06-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "19617",
+      "fileNo": "001-05805",
+      "irsNo": "132624428",
+      "companyName": "JPMORGAN CHASE & CO (Filer)",
+      "type": "10-Q",
+      "sic": "6021 National Commercial Banks",
+      "filmNo": "251185252",
+      "undefined": "02 Finance)"
+    }
+  ],
+  "id": "c4a09ff7de22336b22bb53d40adac20b",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/0000019617-25-000615-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "7",
+      "size": "219150",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "8",
+      "size": "266754",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "9",
+      "size": "1327173",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "10",
+      "size": "2069567",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "11",
+      "size": "1708287",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "194",
+      "size": "13120374",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

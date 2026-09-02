@@ -1,0 +1,89 @@
+{
+  "ticker": "JNJ",
+  "formType": "8-K",
+  "accessionNo": "0000200406-25-000141",
+  "cik": "200406",
+  "companyNameLong": "JOHNSON & JOHNSON (Filer)",
+  "companyName": "JOHNSON & JOHNSON",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424.htm",
+  "description": "Form 8-K - Current report - Item 5.02 Item 5.07 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/0000200406-25-000141.txt",
+  "filedAt": "2025-04-30T16:30:48-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "75488",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/200406/000020040625000141/jnj-20250424.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "304663",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/0000200406-25-000141.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-04-24",
+  "entities": [
+    {
+      "fiscalYearEnd": "1228",
+      "stateOfIncorporation": "NJ",
+      "act": "34",
+      "cik": "200406",
+      "fileNo": "001-03215",
+      "companyName": "JOHNSON & JOHNSON (Filer)",
+      "type": "8-K",
+      "sic": "2834 Pharmaceutical Preparations",
+      "filmNo": "25895958",
+      "undefined": "03 Life Sciences)"
+    }
+  ],
+  "id": "48053959638e3f7f3386b873372f9324",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+    "Item 5.07: Submission of Matters to a Vote of Security Holders",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/0000200406-25-000141-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "2",
+      "size": "4583",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "3",
+      "size": "10568",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "4",
+      "size": "38371",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "5",
+      "size": "22234",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "16",
+      "size": "10683",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000141/jnj-20250424_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

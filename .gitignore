@@ -21,8 +21,20 @@ logs/*.csv
 logs/*.log
 
 # Large/generated data (regenerable via scripts/, not source)
-data/raw/
 data/processed/
+data/raw/*
+
+# Exception: a small sample of real collected SEC filings, committed so the app has real
+# governance-risk data to show out of the box without needing to run the full collection
+# pipeline first. See scripts/sec_filings.py / scripts/add_filings.py to collect more.
+!data/raw/filings/
+data/raw/filings/*
+!data/raw/filings/AAPL/
+!data/raw/filings/MSFT/
+!data/raw/filings/NVDA/
+!data/raw/filings/GOOGL/
+!data/raw/filings/JPM/
+!data/raw/filings/JNJ/
 
 # OS/editor cruft
 .DS_Store

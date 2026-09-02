@@ -1,0 +1,121 @@
+{
+  "ticker": "JPM",
+  "formType": "8-K",
+  "accessionNo": "0001628280-25-044845",
+  "cik": "19617",
+  "companyNameLong": "JPMORGAN CHASE & CO (Filer)",
+  "companyName": "JPMORGAN CHASE & CO",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014.htm",
+  "description": "Form 8-K - Current report - Item 2.02 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/0001628280-25-044845.txt",
+  "filedAt": "2025-10-14T06:30:57-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "46260",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/19617/000162828025044845/jpm-20251014.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "203526",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/a3q25erfexhibit991narrative.htm",
+      "description": "JPMORGAN CHASE & CO. EARNINGS RELEASE - THIRD QUARTER 2025 RESULTS",
+      "type": "EX-99.1"
+    },
+    {
+      "sequence": "3",
+      "size": "3308354",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/a3q25erfex992supplement.htm",
+      "description": "JPMORGAN CHASE & CO. EARNINGS RELEASE FINANCIAL SUPPLEMENT - THIRD QUARTER 2025",
+      "type": "EX-99.2"
+    },
+    {
+      "sequence": "8",
+      "size": "4394",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/image1a.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "9",
+      "size": "4394",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/imagea.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "10",
+      "size": "36160",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpmc_logoxstandardxblackxra.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "4003372",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/0001628280-25-044845.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-10-14",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "19617",
+      "fileNo": "001-05805",
+      "irsNo": "132624428",
+      "companyName": "JPMORGAN CHASE & CO (Filer)",
+      "type": "8-K",
+      "sic": "6021 National Commercial Banks",
+      "filmNo": "251389469",
+      "undefined": "02 Finance)"
+    }
+  ],
+  "id": "d371321f85d474ef0905aa15ffa8f2d7",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 2.02: Results of Operations and Financial Condition",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/0001628280-25-044845-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "4",
+      "size": "5777",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "5",
+      "size": "20947",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "6",
+      "size": "45044",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "7",
+      "size": "22095",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "20",
+      "size": "11311",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/jpm-20251014_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

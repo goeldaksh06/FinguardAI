@@ -1,0 +1,378 @@
+{
+  "ticker": "JPM",
+  "formType": "8-K",
+  "accessionNo": "0000019617-25-000907",
+  "cik": "19617",
+  "companyNameLong": "JPMORGAN CHASE & CO (Filer)",
+  "companyName": "JPMORGAN CHASE & CO",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912.htm",
+  "description": "Form 8-K - Current report - Item 5.03 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/0000019617-25-000907.txt",
+  "filedAt": "2025-09-12T16:32:01-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "42764",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/19617/000001961725000907/jpm-20250912.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "161782",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025.htm",
+      "description": "BY-LAWS OF JPMORGAN CHASE & CO., AS AMENDED, EFFECTIVE SEPTEMBER 12, 2025",
+      "type": "EX-3.2"
+    },
+    {
+      "sequence": "7",
+      "size": "44756",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025001.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "8",
+      "size": "212354",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025002.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "9",
+      "size": "183579",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025003.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "10",
+      "size": "207034",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025004.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "11",
+      "size": "268127",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025005.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "12",
+      "size": "268506",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025006.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "13",
+      "size": "288033",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025007.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "14",
+      "size": "328662",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025008.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "15",
+      "size": "293079",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025009.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "16",
+      "size": "274353",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025010.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "17",
+      "size": "221119",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025011.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "18",
+      "size": "217173",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025012.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "19",
+      "size": "213447",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025013.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "20",
+      "size": "212650",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025014.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "21",
+      "size": "212730",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025015.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "22",
+      "size": "160525",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025016.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "23",
+      "size": "160529",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025017.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "24",
+      "size": "170895",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025018.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "25",
+      "size": "231243",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025019.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "26",
+      "size": "250871",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025020.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "27",
+      "size": "257634",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025021.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "28",
+      "size": "242245",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025022.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "29",
+      "size": "220602",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025023.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "30",
+      "size": "246120",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025024.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "31",
+      "size": "263085",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025025.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "32",
+      "size": "273007",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025026.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "33",
+      "size": "201590",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025027.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "34",
+      "size": "189062",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025028.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "35",
+      "size": "222147",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025029.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "36",
+      "size": "231035",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025030.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "37",
+      "size": "218825",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025031.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "38",
+      "size": "243546",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025032.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "39",
+      "size": "279994",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025033.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "40",
+      "size": "313313",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025034.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "41",
+      "size": "285930",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025035.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "42",
+      "size": "305506",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025036.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "43",
+      "size": "278934",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025037.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "44",
+      "size": "287715",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025038.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "45",
+      "size": "245649",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025039.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "46",
+      "size": "290120",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025040.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "47",
+      "size": "291918",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025041.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "48",
+      "size": "228550",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025042.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "49",
+      "size": "292137",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025043.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "50",
+      "size": "251646",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025044.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "51",
+      "size": "266582",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025045.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "52",
+      "size": "253213",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025046.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "53",
+      "size": "73790",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpmcby-laws09122025047.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "15884048",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/0000019617-25-000907.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-09-12",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "19617",
+      "fileNo": "001-05805",
+      "irsNo": "132624428",
+      "companyName": "JPMORGAN CHASE & CO (Filer)",
+      "type": "8-K",
+      "sic": "6021 National Commercial Banks",
+      "filmNo": "251311900",
+      "undefined": "02 Finance)"
+    }
+  ],
+  "id": "828bd2735bd1c63ee85d0ad83269b777",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/0000019617-25-000907-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "3",
+      "size": "5994",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "4",
+      "size": "21462",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "5",
+      "size": "46214",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "6",
+      "size": "22659",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "63",
+      "size": "11411",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000907/jpm-20250912_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

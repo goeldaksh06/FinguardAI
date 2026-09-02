@@ -1,0 +1,139 @@
+{
+  "ticker": "GOOGL",
+  "formType": "10-K",
+  "accessionNo": "0001652044-21-000010",
+  "cik": "1652044",
+  "companyNameLong": "Alphabet Inc. (Filer)",
+  "effectivenessDate": "2020-12-31",
+  "companyName": "Alphabet Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231.htm",
+  "description": "Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/0001652044-21-000010.txt",
+  "filedAt": "2021-02-02T20:12:25-05:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "3194798",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1652044/000165204421000010/goog-20201231.htm",
+      "description": "10-K",
+      "type": "10-K"
+    },
+    {
+      "sequence": "2",
+      "size": "3543",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/googexhibit2101q42020.htm",
+      "description": "EX-21.01",
+      "type": "EX-21.01"
+    },
+    {
+      "sequence": "3",
+      "size": "7264",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/googexhibit2301q42020.htm",
+      "description": "EX-23.01",
+      "type": "EX-23.01"
+    },
+    {
+      "sequence": "4",
+      "size": "10475",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/googexhibit3101q42020.htm",
+      "description": "EX-31.01",
+      "type": "EX-31.01"
+    },
+    {
+      "sequence": "5",
+      "size": "10523",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/googexhibit3102q42020.htm",
+      "description": "EX-31.02",
+      "type": "EX-31.02"
+    },
+    {
+      "sequence": "6",
+      "size": "8757",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/googexhibit3201q42020.htm",
+      "description": "EX-32.01",
+      "type": "EX-32.01"
+    },
+    {
+      "sequence": "12",
+      "size": "142914",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "13",
+      "size": "143804",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_g2.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "14948616",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/0001652044-21-000010.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2020-12-31",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "1652044",
+      "fileNo": "001-37580",
+      "irsNo": "611767919",
+      "companyName": "Alphabet Inc. (Filer)",
+      "type": "10-K",
+      "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+      "filmNo": "21583716"
+    }
+  ],
+  "id": "e5b67aca9c746fbeb78a284c187c7efc",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/0001652044-21-000010-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "7",
+      "size": "73418",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "8",
+      "size": "184326",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "9",
+      "size": "429174",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "10",
+      "size": "1008135",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "11",
+      "size": "667627",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "14",
+      "size": "2978118",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204421000010/goog-20201231_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

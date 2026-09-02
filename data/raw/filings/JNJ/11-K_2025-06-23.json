@@ -1,0 +1,56 @@
+{
+  "ticker": "JNJ",
+  "formType": "11-K",
+  "accessionNo": "0000200406-25-000159",
+  "cik": "200406",
+  "companyNameLong": "JOHNSON & JOHNSON (Filer)",
+  "companyName": "JOHNSON & JOHNSON",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/a2024form11-kxjjsavingsplan.htm",
+  "description": "Form 11-K - Annual report of employee stock purchase, savings and similar plans",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/0000200406-25-000159.txt",
+  "filedAt": "2025-06-23T21:41:23-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "348576",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/a2024form11-kxjjsavingsplan.htm",
+      "description": "11-K",
+      "type": "11-K"
+    },
+    {
+      "sequence": "2",
+      "size": "2531",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/a202411-kex23.htm",
+      "description": "EX-23",
+      "type": "EX-23"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "352138",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/0000200406-25-000159.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2024-12-31",
+  "entities": [
+    {
+      "fiscalYearEnd": "1228",
+      "stateOfIncorporation": "NJ",
+      "act": "34",
+      "cik": "200406",
+      "fileNo": "001-03215",
+      "irsNo": "221024240",
+      "companyName": "JOHNSON & JOHNSON (Filer)",
+      "type": "11-K",
+      "sic": "2834 Pharmaceutical Preparations",
+      "filmNo": "251066499",
+      "undefined": "03 Life Sciences)"
+    }
+  ],
+  "id": "035637da9a90ffb31143991e284bc0e2",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000159/0000200406-25-000159-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": []
+}

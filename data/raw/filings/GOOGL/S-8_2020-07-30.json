@@ -1,0 +1,75 @@
+{
+  "ticker": "GOOGL",
+  "formType": "S-8",
+  "accessionNo": "0001193125-20-204854",
+  "cik": "1652044",
+  "companyNameLong": "Alphabet Inc. (Filer)",
+  "companyName": "Alphabet Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/d49574ds8.htm",
+  "description": "Form S-8 - Securities to be offered to employees in employee benefit plans",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/0001193125-20-204854.txt",
+  "filedAt": "2020-07-30T21:42:35-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "46456",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/d49574ds8.htm",
+      "description": "S-8",
+      "type": "S-8"
+    },
+    {
+      "sequence": "2",
+      "size": "7553",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/d49574dex501.htm",
+      "description": "EX-5.01",
+      "type": "EX-5.01"
+    },
+    {
+      "sequence": "3",
+      "size": "1616",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/d49574dex2301.htm",
+      "description": "EX-23.01",
+      "type": "EX-23.01"
+    },
+    {
+      "sequence": "4",
+      "size": "4442",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/g49574g36l43.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "5",
+      "size": "47596",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/g49574g76w40.jpg",
+      "description": "GRAPHIC",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "128533",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/0001193125-20-204854.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "33",
+      "cik": "0001652044",
+      "fileNo": "333-240221",
+      "irsNo": "611767919",
+      "companyName": "Alphabet Inc. (Filer)",
+      "type": "S-8",
+      "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+      "filmNo": "201063466"
+    }
+  ],
+  "id": "4cf73188b5404fa5b0840645b0c06a3d",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520204854/0001193125-20-204854-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": []
+}

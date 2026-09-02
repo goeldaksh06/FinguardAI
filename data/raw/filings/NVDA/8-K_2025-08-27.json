@@ -1,0 +1,103 @@
+{
+  "ticker": "NVDA",
+  "formType": "8-K",
+  "accessionNo": "0001045810-25-000207",
+  "cik": "1045810",
+  "companyNameLong": "NVIDIA CORP (Filer)",
+  "companyName": "NVIDIA CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm",
+  "description": "Form 8-K - Current report - Item 2.02 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/0001045810-25-000207.txt",
+  "filedAt": "2025-08-27T16:22:14-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "25696",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "379988",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26pr.htm",
+      "description": "EX-99.1",
+      "type": "EX-99.1"
+    },
+    {
+      "sequence": "3",
+      "size": "240820",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26cfocommentary.htm",
+      "description": "EX-99.2",
+      "type": "EX-99.2"
+    },
+    {
+      "sequence": "7",
+      "size": "13441",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvdalogoa19a.jpg",
+      "description": "NVDA LOGO",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "824018",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/0001045810-25-000207.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-08-27",
+  "entities": [
+    {
+      "fiscalYearEnd": "0125",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "1045810",
+      "fileNo": "000-23985",
+      "irsNo": "943177549",
+      "companyName": "NVIDIA CORP (Filer)",
+      "type": "8-K",
+      "sic": "3674 Semiconductors &amp; Related Devices",
+      "filmNo": "251265524",
+      "undefined": "04 Manufacturing)"
+    }
+  ],
+  "id": "6e8e1c2ffd0d4de956dc9ca22fe8df3e",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 2.02: Results of Operations and Financial Condition",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/0001045810-25-000207-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "4",
+      "size": "2125",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "5",
+      "size": "22403",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "6",
+      "size": "13326",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "17",
+      "size": "2711",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

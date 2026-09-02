@@ -1,0 +1,107 @@
+{
+  "ticker": "JNJ",
+  "formType": "8-K",
+  "accessionNo": "0000200406-25-000190",
+  "cik": "200406",
+  "companyNameLong": "JOHNSON & JOHNSON (Filer)",
+  "companyName": "JOHNSON & JOHNSON",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908.htm",
+  "description": "Form 8-K - Current report - Item 5.02",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/0000200406-25-000190.txt",
+  "filedAt": "2025-09-08T19:55:25-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "41443",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/200406/000020040625000190/jnj-20250908.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "9041",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/exhibit991-final_johnmorik.htm",
+      "description": "EX-99.1",
+      "type": "EX-99.1"
+    },
+    {
+      "sequence": "7",
+      "size": "244",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/image_0.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "8",
+      "size": "17852",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/image_1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "296329",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/0000200406-25-000190.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-09-08",
+  "entities": [
+    {
+      "fiscalYearEnd": "1228",
+      "stateOfIncorporation": "NJ",
+      "act": "34",
+      "cik": "200406",
+      "fileNo": "001-03215",
+      "irsNo": "221024240",
+      "companyName": "JOHNSON & JOHNSON (Filer)",
+      "type": "8-K",
+      "sic": "2834 Pharmaceutical Preparations",
+      "filmNo": "251301386",
+      "undefined": "03 Life Sciences)"
+    }
+  ],
+  "id": "ce5e1ddc3ed89011efbbb9ad8cdfdced",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/0000200406-25-000190-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "3",
+      "size": "4583",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "4",
+      "size": "10568",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "5",
+      "size": "38371",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "6",
+      "size": "22234",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "18",
+      "size": "10683",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000190/jnj-20250908_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

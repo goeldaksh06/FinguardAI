@@ -1,0 +1,88 @@
+{
+  "ticker": "NVDA",
+  "formType": "8-K",
+  "accessionNo": "0001045810-25-000039",
+  "cik": "1045810",
+  "companyNameLong": "NVIDIA CORP (Filer)",
+  "companyName": "NVIDIA CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.htm",
+  "description": "Form 8-K - Current report - Item 5.02",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/0001045810-25-000039.txt",
+  "filedAt": "2025-03-07T17:09:13-05:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "32778",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "14953",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/ex101-fy26variablecompensa.htm",
+      "description": "EX-10.1",
+      "type": "EX-10.1"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "177827",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/0001045810-25-000039.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-03-03",
+  "entities": [
+    {
+      "fiscalYearEnd": "0125",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "1045810",
+      "fileNo": "000-23985",
+      "irsNo": "943177549",
+      "companyName": "NVIDIA CORP (Filer)",
+      "type": "8-K",
+      "sic": "3674 Semiconductors &amp; Related Devices",
+      "filmNo": "25721175",
+      "undefined": "04 Manufacturing)"
+    }
+  ],
+  "id": "0f48b1fe7aad96798da8dcff155b20b3",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/0001045810-25-000039-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "3",
+      "size": "2125",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "4",
+      "size": "22403",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "5",
+      "size": "13326",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "16",
+      "size": "2711",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

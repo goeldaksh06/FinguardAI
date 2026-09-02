@@ -1,0 +1,120 @@
+{
+  "ticker": "MSFT",
+  "formType": "10-K",
+  "accessionNo": "0000950170-25-100235",
+  "cik": "789019",
+  "companyNameLong": "MICROSOFT CORP (Filer)",
+  "companyName": "MICROSOFT CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+  "description": "Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/0000950170-25-100235.txt",
+  "filedAt": "2025-07-30T16:11:40-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "8158067",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+      "description": "10-K",
+      "type": "10-K"
+    },
+    {
+      "sequence": "2",
+      "size": "202307",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_7.htm",
+      "description": "EX-10.7",
+      "type": "EX-10.7"
+    },
+    {
+      "sequence": "3",
+      "size": "291957",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_8.htm",
+      "description": "EX-10.8",
+      "type": "EX-10.8"
+    },
+    {
+      "sequence": "4",
+      "size": "15901",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex21.htm",
+      "description": "EX-21",
+      "type": "EX-21"
+    },
+    {
+      "sequence": "5",
+      "size": "5383",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex23_1.htm",
+      "description": "EX-23.1",
+      "type": "EX-23.1"
+    },
+    {
+      "sequence": "6",
+      "size": "12363",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex31_1.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "7",
+      "size": "12604",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex31_2.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "8",
+      "size": "8729",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex32_1.htm",
+      "description": "EX-32.1",
+      "type": "EX-32.1"
+    },
+    {
+      "sequence": "9",
+      "size": "8430",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex32_2.htm",
+      "description": "EX-32.2",
+      "type": "EX-32.2"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "34889671",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/0000950170-25-100235.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-06-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "0630",
+      "stateOfIncorporation": "WA",
+      "act": "34",
+      "cik": "789019",
+      "fileNo": "001-37845",
+      "irsNo": "911144442",
+      "companyName": "MICROSOFT CORP (Filer)",
+      "type": "10-K",
+      "sic": "7372 Services-Prepackaged Software",
+      "filmNo": "251167157",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "2a458b9efe359bfec081982b98a26a70",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/0000950170-25-100235-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "10",
+      "size": "2066295",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA WITH EMBEDDED LINKBASES DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "130",
+      "size": "10533273",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

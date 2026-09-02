@@ -1,0 +1,1052 @@
+{
+  "ticker": "JPM",
+  "formType": "10-Q",
+  "accessionNo": "0001628280-25-048859",
+  "cik": "19617",
+  "companyNameLong": "JPMORGAN CHASE & CO (Filer)",
+  "companyName": "JPMORGAN CHASE & CO",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/0001628280-25-048859.txt",
+  "filedAt": "2025-11-04T16:18:08-05:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "11495265",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "44365",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31.htm",
+      "description": "EX-3.1",
+      "type": "EX-3.1"
+    },
+    {
+      "sequence": "3",
+      "size": "6877",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit15.htm",
+      "description": "EX-15",
+      "type": "EX-15"
+    },
+    {
+      "sequence": "4",
+      "size": "3621",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit22.htm",
+      "description": "EX-22",
+      "type": "EX-22"
+    },
+    {
+      "sequence": "5",
+      "size": "8164",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit311.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "6",
+      "size": "8132",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit312.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "7",
+      "size": "9913",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit32.htm",
+      "description": "EX-32",
+      "type": "EX-32"
+    },
+    {
+      "sequence": "13",
+      "size": "71454",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31001.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "14",
+      "size": "230905",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31002.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "15",
+      "size": "262397",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31003.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "16",
+      "size": "284005",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31004.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "17",
+      "size": "210633",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31005.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "18",
+      "size": "250568",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31006.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "19",
+      "size": "329751",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31007.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "20",
+      "size": "327740",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31008.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "21",
+      "size": "339813",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31009.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "22",
+      "size": "223504",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31010.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "23",
+      "size": "44255",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31011.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "24",
+      "size": "31018",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31012.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "25",
+      "size": "226821",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31013.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "26",
+      "size": "313543",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31014.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "27",
+      "size": "280865",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31015.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "28",
+      "size": "329324",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31016.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "29",
+      "size": "314696",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31017.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "30",
+      "size": "281381",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31018.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "31",
+      "size": "305750",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31019.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "32",
+      "size": "264428",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31020.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "33",
+      "size": "332995",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31021.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "34",
+      "size": "288790",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31022.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "35",
+      "size": "102423",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31023.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "36",
+      "size": "51815",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31024.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "37",
+      "size": "29687",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31025.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "38",
+      "size": "195702",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31026.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "39",
+      "size": "255515",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31027.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "40",
+      "size": "294285",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31028.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "41",
+      "size": "236191",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31029.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "42",
+      "size": "264358",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31030.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "43",
+      "size": "219910",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31031.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "44",
+      "size": "282850",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31032.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "45",
+      "size": "252431",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31033.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "46",
+      "size": "156776",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31034.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "47",
+      "size": "51919",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31035.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "48",
+      "size": "29598",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31036.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "49",
+      "size": "169790",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31037.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "50",
+      "size": "273508",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31038.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "51",
+      "size": "308502",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31039.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "52",
+      "size": "304106",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31040.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "53",
+      "size": "291356",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31041.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "54",
+      "size": "292926",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31042.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "55",
+      "size": "278224",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31043.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "56",
+      "size": "334650",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31044.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "57",
+      "size": "290893",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31045.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "58",
+      "size": "72138",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31046.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "59",
+      "size": "54781",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31047.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "60",
+      "size": "29661",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31048.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "61",
+      "size": "234132",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31049.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "62",
+      "size": "288828",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31050.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "63",
+      "size": "328873",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31051.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "64",
+      "size": "272112",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31052.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "65",
+      "size": "312119",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31053.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "66",
+      "size": "257476",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31054.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "67",
+      "size": "330479",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31055.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "68",
+      "size": "287090",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31056.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "69",
+      "size": "168605",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31057.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "70",
+      "size": "53578",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31058.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "71",
+      "size": "30930",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31059.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "72",
+      "size": "226377",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31060.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "73",
+      "size": "310476",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31061.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "74",
+      "size": "315634",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31062.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "75",
+      "size": "308842",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31063.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "76",
+      "size": "271253",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31064.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "77",
+      "size": "310171",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31065.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "78",
+      "size": "259377",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31066.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "79",
+      "size": "334047",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31067.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "80",
+      "size": "284212",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31068.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "81",
+      "size": "310535",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31069.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "82",
+      "size": "245762",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31070.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "83",
+      "size": "242583",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31071.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "84",
+      "size": "231375",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31072.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "85",
+      "size": "248134",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31073.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "86",
+      "size": "60700",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31074.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "87",
+      "size": "53592",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31075.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "88",
+      "size": "29544",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31076.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "89",
+      "size": "230860",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31077.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "90",
+      "size": "282624",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31078.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "91",
+      "size": "325637",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31079.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "92",
+      "size": "268143",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31080.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "93",
+      "size": "304537",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31081.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "94",
+      "size": "253330",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31082.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "95",
+      "size": "327715",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31083.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "96",
+      "size": "281389",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31084.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "97",
+      "size": "174901",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31085.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "98",
+      "size": "51259",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31086.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "99",
+      "size": "31292",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31087.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "100",
+      "size": "209992",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31088.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "101",
+      "size": "290790",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31089.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "102",
+      "size": "260790",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31090.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "103",
+      "size": "293560",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31091.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "104",
+      "size": "309728",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31092.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "105",
+      "size": "272799",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31093.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "106",
+      "size": "306410",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31094.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "107",
+      "size": "259909",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31095.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "108",
+      "size": "335932",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31096.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "109",
+      "size": "285590",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31097.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "110",
+      "size": "238144",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31098.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "111",
+      "size": "51109",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31099.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "112",
+      "size": "29689",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31100.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "113",
+      "size": "232716",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31101.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "114",
+      "size": "283435",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31102.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "115",
+      "size": "326192",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31103.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "116",
+      "size": "267342",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31104.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "117",
+      "size": "307263",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31105.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "118",
+      "size": "254058",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31106.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "119",
+      "size": "328129",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31107.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "120",
+      "size": "281894",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31108.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "121",
+      "size": "183352",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31109.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "122",
+      "size": "51516",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31110.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "123",
+      "size": "29595",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31111.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "124",
+      "size": "232305",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31112.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "125",
+      "size": "285214",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31113.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "126",
+      "size": "328551",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31114.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "127",
+      "size": "268841",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31115.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "128",
+      "size": "309536",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31116.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "129",
+      "size": "256479",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31117.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "130",
+      "size": "330506",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31118.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "131",
+      "size": "283693",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31119.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "132",
+      "size": "180541",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31120.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "133",
+      "size": "51135",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31121.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "134",
+      "size": "31587",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31122.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "135",
+      "size": "202097",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31123.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "136",
+      "size": "291186",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31124.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "137",
+      "size": "261487",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31125.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "138",
+      "size": "286504",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31126.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "139",
+      "size": "318345",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31127.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "140",
+      "size": "273732",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31128.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "141",
+      "size": "306909",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31129.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "142",
+      "size": "257084",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31130.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "143",
+      "size": "330343",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31131.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "144",
+      "size": "293960",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31132.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "145",
+      "size": "247350",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31133.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "146",
+      "size": "54765",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31134.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "147",
+      "size": "31622",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31135.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "148",
+      "size": "202032",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31136.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "149",
+      "size": "290940",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31137.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "150",
+      "size": "260607",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31138.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "151",
+      "size": "285843",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31139.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "152",
+      "size": "317710",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31140.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "153",
+      "size": "272851",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31141.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "154",
+      "size": "306376",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31142.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "155",
+      "size": "257087",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31143.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "156",
+      "size": "329624",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31144.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "157",
+      "size": "292797",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31145.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "158",
+      "size": "212866",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31146.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "159",
+      "size": "51898",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/corpq32025exhibit31147.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "160",
+      "size": "288647",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "161",
+      "size": "51184",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_g2.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "162",
+      "size": "47775",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_g3.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "163",
+      "size": "8845",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_g4.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "164",
+      "size": "11684",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_g5.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "165",
+      "size": "8845",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/newlogo.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "97853440",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/0001628280-25-048859.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-09-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "19617",
+      "fileNo": "001-05805",
+      "irsNo": "132624428",
+      "companyName": "JPMORGAN CHASE & CO (Filer)",
+      "type": "10-Q",
+      "sic": "6021 National Commercial Banks",
+      "filmNo": "251449356",
+      "undefined": "02 Finance)"
+    }
+  ],
+  "id": "74b04e4ef352b31fa3f99cd1a9c79299",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/0001628280-25-048859-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "8",
+      "size": "221361",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "9",
+      "size": "267909",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "10",
+      "size": "1335251",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "11",
+      "size": "2078009",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "12",
+      "size": "1714715",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "342",
+      "size": "13166624",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

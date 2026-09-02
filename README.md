@@ -115,12 +115,12 @@ The app runs at `http://localhost:5173` by default and expects the backend at
 
 ### API keys required
 
-| Key | Used for | Free tier? |
+| Key | Used for | Required to run? |
 |---|---|---|
-| `sec_api_key` | SEC filing metadata via [sec-api.io](https://sec-api.io) | Yes (100 requests) |
-| `groq_api_key` | LLM calls via [Groq](https://console.groq.com) | Yes |
+| `groq_api_key` | LLM calls via [Groq](https://console.groq.com), free tier | Yes, for the Report/Critic/Orchestrator endpoints |
+| `sec_api_key` | Collecting more SEC filings via [sec-api.io](https://sec-api.io) | No — a sample is already committed (see below) |
 
-Market data (yfinance) and news (Google News RSS) need no key.
+Market data (yfinance) and news (Google News RSS) need no key at all.
 
 ## Project structure
 
@@ -145,6 +145,16 @@ scripts/
   sec_filings.py                 SEC filing collection
   build_risk_history.py            Historical dataset backfill
 ```
+
+## Running with no setup beyond installing dependencies
+
+Market data, news, and sentiment are fetched live at request time (yfinance + Google News RSS +
+FinBERT) — no API key or pre-collected data needed for those. A small real sample of collected
+SEC filings is committed for **AAPL, MSFT, NVDA, GOOGL, JPM, and JNJ** so governance risk and the
+full FRI are populated out of the box for those tickers; any other ticker will correctly show
+governance risk as unavailable (not a fake zero) until you run `scripts/sec_filings.py` or
+`scripts/add_filings.py` to collect more. The forecast model (`backend/model/forecast_model.joblib`)
+is a pre-trained artifact and works for any ticker immediately.
 
 ## Notes on scope
 

@@ -1,0 +1,112 @@
+{
+  "ticker": "GOOGL",
+  "formType": "10-Q",
+  "accessionNo": "0001652044-20-000050",
+  "cik": "1652044",
+  "companyNameLong": "Alphabet Inc. (Filer)",
+  "companyName": "Alphabet Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/0001652044-20-000050.txt",
+  "filedAt": "2020-10-29T19:30:04-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "2879144",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1652044/000165204420000050/goog-20200930.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "12276",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/googexhibit3101q32020.htm",
+      "description": "EX-31.01",
+      "type": "EX-31.01"
+    },
+    {
+      "sequence": "3",
+      "size": "12324",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/googexhibit3102q32020.htm",
+      "description": "EX-31.02",
+      "type": "EX-31.02"
+    },
+    {
+      "sequence": "4",
+      "size": "11092",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/googexhibit3201q32020.htm",
+      "description": "EX-32.01",
+      "type": "EX-32.01"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "12756554",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/0001652044-20-000050.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2020-09-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "1231",
+      "stateOfIncorporation": "DE",
+      "act": "34",
+      "cik": "0001652044",
+      "fileNo": "001-37580",
+      "irsNo": "611767919",
+      "companyName": "Alphabet Inc. (Filer)",
+      "type": "10-Q",
+      "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+      "filmNo": "201274199"
+    }
+  ],
+  "id": "cca16235c7a4b49653591c0d2f3386a8",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/0001652044-20-000050-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "5",
+      "size": "61808",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "6",
+      "size": "147606",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "7",
+      "size": "391033",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "8",
+      "size": "828689",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "9",
+      "size": "563813",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "10",
+      "size": "2907905",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204420000050/goog-20200930_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

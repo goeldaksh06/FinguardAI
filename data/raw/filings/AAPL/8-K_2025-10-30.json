@@ -1,0 +1,102 @@
+{
+  "ticker": "AAPL",
+  "formType": "8-K",
+  "accessionNo": "0000320193-25-000077",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
+  "description": "Form 8-K - Current report - Item 2.02 Item 9.01",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/0000320193-25-000077.txt",
+  "filedAt": "2025-10-30T16:30:35-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "39054",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
+      "description": "8-K",
+      "type": "8-K"
+    },
+    {
+      "sequence": "2",
+      "size": "198222",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/a8-kex991q4202509272025.htm",
+      "description": "EX-99.1",
+      "type": "EX-99.1"
+    },
+    {
+      "sequence": "7",
+      "size": "1264",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "453184",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/0000320193-25-000077.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-10-30",
+  "entities": [
+    {
+      "fiscalYearEnd": "0927",
+      "stateOfIncorporation": "CA",
+      "act": "34",
+      "cik": "320193",
+      "fileNo": "001-36743",
+      "irsNo": "942404110",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "8-K",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "251436166",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "3b0be2494247fc8375eef62b8ec4a92c",
+  "seriesAndClassesContractsInformation": [],
+  "items": [
+    "Item 2.02: Results of Operations and Financial Condition",
+    "Item 9.01: Financial Statements and Exhibits"
+  ],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/0000320193-25-000077-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "3",
+      "size": "3856",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "4",
+      "size": "18605",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "5",
+      "size": "35194",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "6",
+      "size": "19692",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "17",
+      "size": "8450",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

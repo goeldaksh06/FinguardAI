@@ -1,0 +1,146 @@
+{
+  "ticker": "AAPL",
+  "formType": "10-K",
+  "accessionNo": "0000320193-25-000079",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "description": "Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/0000320193-25-000079.txt",
+  "filedAt": "2025-10-31T06:01:26-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "1520208",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "description": "10-K",
+      "type": "10-K"
+    },
+    {
+      "sequence": "2",
+      "size": "118590",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit4109272025.htm",
+      "description": "EX-4.1",
+      "type": "EX-4.1"
+    },
+    {
+      "sequence": "3",
+      "size": "11807",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit21109272025.htm",
+      "description": "EX-21.1",
+      "type": "EX-21.1"
+    },
+    {
+      "sequence": "4",
+      "size": "6251",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit23109272025.htm",
+      "description": "EX-23.1",
+      "type": "EX-23.1"
+    },
+    {
+      "sequence": "5",
+      "size": "10507",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit31109272025.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "6",
+      "size": "10543",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit31209272025.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "7",
+      "size": "8356",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/a10-kexhibit32109272025.htm",
+      "description": "EX-32.1",
+      "type": "EX-32.1"
+    },
+    {
+      "sequence": "13",
+      "size": "10963",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "14",
+      "size": "146350",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_g2.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "9392337",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/0000320193-25-000079.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-09-27",
+  "entities": [
+    {
+      "fiscalYearEnd": "0927",
+      "stateOfIncorporation": "CA",
+      "act": "34",
+      "cik": "320193",
+      "fileNo": "001-36743",
+      "irsNo": "942404110",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "10-K",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "251437791",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "b3f5543f122723d5110a670a0d38fadd",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/0000320193-25-000079-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "8",
+      "size": "56313",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "9",
+      "size": "153156",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "10",
+      "size": "224664",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "11",
+      "size": "763631",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "12",
+      "size": "496062",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "94",
+      "size": "1416841",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "ticker": "AAPL",
+  "formType": "10-Q",
+  "accessionNo": "0000320193-25-000073",
+  "cik": "320193",
+  "companyNameLong": "Apple Inc. (Filer)",
+  "companyName": "Apple Inc.",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/0000320193-25-000073.txt",
+  "filedAt": "2025-08-01T06:00:42-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "888048",
+      "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "description": "10-Q",
+      "type": "10-Q"
+    },
+    {
+      "sequence": "2",
+      "size": "10527",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/a10-qexhibit31106282025.htm",
+      "description": "EX-31.1",
+      "type": "EX-31.1"
+    },
+    {
+      "sequence": "3",
+      "size": "10566",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/a10-qexhibit31206282025.htm",
+      "description": "EX-31.2",
+      "type": "EX-31.2"
+    },
+    {
+      "sequence": "4",
+      "size": "8360",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/a10-qexhibit32106282025.htm",
+      "description": "EX-32.1",
+      "type": "EX-32.1"
+    },
+    {
+      "sequence": "10",
+      "size": "10963",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_g1.jpg",
+      "type": "GRAPHIC"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "5304776",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/0000320193-25-000073.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2025-06-28",
+  "entities": [
+    {
+      "fiscalYearEnd": "0927",
+      "stateOfIncorporation": "CA",
+      "act": "34",
+      "cik": "320193",
+      "fileNo": "001-36743",
+      "irsNo": "942404110",
+      "companyName": "Apple Inc. (Filer)",
+      "type": "10-Q",
+      "sic": "3571 Electronic Computers",
+      "filmNo": "251173509",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "67bc426d322a1d4cca82964b9a9b09eb",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/0000320193-25-000073-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": [
+    {
+      "sequence": "5",
+      "size": "35427",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.xsd",
+      "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+      "type": "EX-101.SCH"
+    },
+    {
+      "sequence": "6",
+      "size": "78163",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_cal.xml",
+      "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+      "type": "EX-101.CAL"
+    },
+    {
+      "sequence": "7",
+      "size": "154707",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_def.xml",
+      "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+      "type": "EX-101.DEF"
+    },
+    {
+      "sequence": "8",
+      "size": "505708",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_lab.xml",
+      "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+      "type": "EX-101.LAB"
+    },
+    {
+      "sequence": "9",
+      "size": "322565",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_pre.xml",
+      "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+      "type": "EX-101.PRE"
+    },
+    {
+      "sequence": "64",
+      "size": "778234",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628_htm.xml",
+      "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+      "type": "XML"
+    }
+  ]
+}

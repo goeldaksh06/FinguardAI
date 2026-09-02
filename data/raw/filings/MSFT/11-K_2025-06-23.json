@@ -1,0 +1,56 @@
+{
+  "ticker": "MSFT",
+  "formType": "11-K",
+  "accessionNo": "0001193125-25-144646",
+  "cik": "789019",
+  "companyNameLong": "MICROSOFT CORP (Filer)",
+  "companyName": "MICROSOFT CORP",
+  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/d43941d11k.htm",
+  "description": "Form 11-K - Annual report of employee stock purchase, savings and similar plans",
+  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/0001193125-25-144646.txt",
+  "filedAt": "2025-06-23T16:06:48-04:00",
+  "documentFormatFiles": [
+    {
+      "sequence": "1",
+      "size": "1634699",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/d43941d11k.htm",
+      "description": "11-K",
+      "type": "11-K"
+    },
+    {
+      "sequence": "2",
+      "size": "1620",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/d43941dex231.htm",
+      "description": "EX-23.1",
+      "type": "EX-23.1"
+    },
+    {
+      "sequence": "\u00a0",
+      "size": "1637328",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/0001193125-25-144646.txt",
+      "description": "Complete submission text file",
+      "type": "\u00a0"
+    }
+  ],
+  "periodOfReport": "2024-12-31",
+  "entities": [
+    {
+      "fiscalYearEnd": "0630",
+      "stateOfIncorporation": "WA",
+      "act": "34",
+      "cik": "789019",
+      "fileNo": "001-37845",
+      "irsNo": "911144442",
+      "companyName": "MICROSOFT CORP (Filer)",
+      "type": "11-K",
+      "sic": "7372 Services-Prepackaged Software",
+      "filmNo": "251064996",
+      "undefined": "06 Technology)"
+    }
+  ],
+  "id": "e9f994d2eb4c691bd12a3926df316043",
+  "seriesAndClassesContractsInformation": [],
+  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/789019/000119312525144646/0001193125-25-144646-index.htm",
+  "linkToXbrl": "",
+  "dataFiles": []
+}
