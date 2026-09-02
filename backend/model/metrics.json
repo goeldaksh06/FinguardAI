@@ -1,0 +1,7 @@
+{
+  "auc_roc": 0.9826,
+  "f1_score": 0.8,
+  "n_transactions": 284807,
+  "n_fraud": 492,
+  "n_features": 39
+}

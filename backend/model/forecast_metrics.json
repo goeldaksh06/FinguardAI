@@ -1,0 +1,70 @@
+{
+  "target_definition": "label=1 if market_risk rises by >= 10.0 points over the next 30 trading days, else 0. market_risk-only label (no governance/news dependency) so all 133 tickers' full history is usable, per the known governance-coverage gap documented in CLAUDE.md.",
+  "features": [
+    "market_risk",
+    "rsi_14",
+    "macd",
+    "macd_signal",
+    "volatility_20",
+    "returns",
+    "ema_spread"
+  ],
+  "split": {
+    "train_end": "2024-06-01",
+    "val_end": "2025-01-01",
+    "purge_gap_days": 45.0
+  },
+  "naive_baseline": {
+    "val": {
+      "label": "naive_baseline_val",
+      "n": 11571,
+      "positive_rate": 0.3019,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.3019
+    },
+    "test": {
+      "label": "naive_baseline_test",
+      "n": 23674,
+      "positive_rate": 0.2891,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.2891
+    }
+  },
+  "xgboost": {
+    "val": {
+      "label": "xgboost_val",
+      "n": 11571,
+      "positive_rate": 0.3019,
+      "precision": 0.4575,
+      "recall": 0.852,
+      "f1": 0.5953,
+      "roc_auc": 0.7646,
+      "pr_auc": 0.5321
+    },
+    "test": {
+      "label": "xgboost_test",
+      "n": 23674,
+      "positive_rate": 0.2891,
+      "precision": 0.4299,
+      "recall": 0.8328,
+      "f1": 0.5671,
+      "roc_auc": 0.7536,
+      "pr_auc": 0.509
+    }
+  },
+  "feature_importances": {
+    "market_risk": 0.5159,
+    "rsi_14": 0.3045,
+    "macd": 0.0452,
+    "macd_signal": 0.0363,
+    "volatility_20": 0.0465,
+    "returns": 0.0171,
+    "ema_spread": 0.0345
+  }
+}

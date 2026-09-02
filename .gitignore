@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / frontend
+node_modules/
+dist/
+
+# Secrets — real API keys live here, never commit
+config/api_keys.yaml
+config/db_config.yaml
+
+# Internal project notes, not part of the published repo
+CLAUDE.md
+ROADMAP.md
+docs/roadmap.md
+
+# Logs
+logs/*.csv
+logs/*.log
+
+# Large/generated data (regenerable via scripts/, not source)
+data/raw/
+data/processed/
+
+# OS/editor cruft
+.DS_Store
+*.swp
+
+# Stray installer binaries that don't belong in this repo
+*.exe
