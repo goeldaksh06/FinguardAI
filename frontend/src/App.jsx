@@ -876,6 +876,125 @@ function AgentTracePanel({ ticker }) {
   )
 }
 
+function SectorPeersPanel({ ticker }) {
+  const [peers, setPeers] = useState(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setLoading(true)
+    setPeers(null)
+    const watchlistTickers = loadWatchlist().filter((t) => t !== ticker)
+    if (watchlistTickers.length === 0) {
+      setLoading(false)
+      return
+    }
+    fetch(`${API_BASE}/api/graph/${encodeURIComponent(ticker)}/peers?tickers=${encodeURIComponent(watchlistTickers.join(','))}`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => setPeers(data?.peers ?? []))
+      .catch(() => setPeers([]))
+      .finally(() => setLoading(false))
+  }, [ticker])
+
+  if (loading) return null
+  if (!peers || peers.length === 0) return null
+
+  return (
+    <section className="panel">
+      <div className="panel-header">
+        <h2>Sector peers</h2>
+        <span className="status">Real graph query, your watchlist only</span>
+      </div>
+      <p className="tester-hint">
+        Other tickers on your watchlist that share {ticker}'s real sector classification — one
+        relationship type (<code>same_sector</code>), from real live company data. Not a claim of
+        supplier/competitor/customer relationships, which this project has no real data source for.
+      </p>
+      <div className="taxonomy-grid">
+        {peers.map((p) => (
+          <div className="taxonomy-card" key={p.ticker}>
+            <div className="taxonomy-card-header">
+              <strong>{p.ticker}</strong>
+            </div>
+            <small className="tester-hint" style={{ margin: 0 }}>{p.name}</small>
+            <small className="tester-hint" style={{ margin: 0 }}>{p.sector} · {p.industry}</small>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function FilingEvidencePanel({ ticker }) {
+  const [query, setQuery] = useState('')
+  const [result, setResult] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+
+  const search = () => {
+    if (!query.trim()) return
+    setLoading(true)
+    setError(null)
+    setResult(null)
+    fetch(`${API_BASE}/api/evidence-search/${encodeURIComponent(ticker)}?q=${encodeURIComponent(query)}`)
+      .then((res) => {
+        if (!res.ok) throw new Error('No collected filing to search for this ticker')
+        return res.json()
+      })
+      .then(setResult)
+      .catch((err) => setError(err.message))
+      .finally(() => setLoading(false))
+  }
+
+  return (
+    <section className="panel">
+      <div className="panel-header">
+        <h2>Search real filing text</h2>
+        <span className="status">RAG — real retrieval, not the whole document</span>
+      </div>
+      <p className="tester-hint">
+        Search this company's actual SEC filing text (Risk Factors section) — real TF-IDF ranked
+        retrieval over the real document, not a keyword highlight or a summary.
+      </p>
+      <div className="tester-actions">
+        <input
+          className="ticker-input"
+          style={{ maxWidth: 260 }}
+          placeholder="e.g. supply chain, litigation, cybersecurity"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && search()}
+        />
+        <button className="primary-btn secondary small" onClick={search}>
+          Search
+        </button>
+      </div>
+      {loading && <p className="tester-hint">Searching real filing text...</p>}
+      {error && <p className="tester-error">{error}</p>}
+      {result && (
+        <>
+          <p className="tester-hint">
+            Source: <a href={result.source_filing.document_url} target="_blank" rel="noreferrer">
+              {result.source_filing.form_type} filed {result.source_filing.filed_at?.slice(0, 10)}
+            </a>
+          </p>
+          {result.passages.length === 0 && <p className="tester-hint">No relevant passage found for that query.</p>}
+          <ul className="filing-list">
+            {result.passages.map((p, i) => (
+              <li key={i} className="filing-item">
+                <div className="filing-meta">
+                  <span className="mono">similarity {p.score}</span>
+                </div>
+                <p className="filing-text" style={{ maxHeight: 'none' }}>{p.text}</p>
+              </li>
+            ))}
+          </ul>
+          <p className="tester-hint">{result.note}</p>
+        </>
+      )}
+    </section>
+  )
+}
+
 function TickerLookup({ initialTicker, onConsumeInitial }) {
   const [ticker, setTicker] = useState(null)
   const [risk, setRisk] = useState(null)
@@ -1000,7 +1119,9 @@ function TickerLookup({ initialTicker, onConsumeInitial }) {
           <RiskForecastPanel ticker={risk.ticker} />
           <RiskTaxonomy ticker={risk.ticker} />
           <NewsSentimentPanel ticker={risk.ticker} />
+          <SectorPeersPanel ticker={risk.ticker} />
           <AIReportPanel ticker={risk.ticker} />
+          <FilingEvidencePanel ticker={risk.ticker} />
           <CompanyFilings ticker={risk.ticker} />
         </>
       )}

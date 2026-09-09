@@ -11,7 +11,8 @@ const SCOPE = [
   { component: 'Critic Agent', status: 'real', badge: 'Deterministic', detail: 'Checks evidence sufficiency before a report is finalized and can trigger one revision. Not a second LLM judging the first.' },
   { component: 'Evidence Verifier', status: 'real', badge: 'Deterministic', detail: 'Independently checks that every factual claim in the report matches a real number in the source data — a hallucination guard.' },
   { component: 'Orchestrator', status: 'real', badge: 'Rule-based routing', detail: 'Decides which agents to invoke based on real data availability, and routes single-ticker vs. portfolio requests differently.' },
-  { component: 'Knowledge graph / RAG', status: 'missing', badge: 'Not built', detail: 'No embeddings, vector search, or graph database yet. Evidence links are real, but retrieval is direct, not vector search.' },
+  { component: 'Knowledge graph', status: 'real', badge: 'Real, scoped', detail: 'A real graph (networkx) of same-sector relationships from live company data — not Neo4j, since a graph this size doesn’t justify a database yet. No fabricated supplier/competitor edges.' },
+  { component: 'Evidence retrieval (RAG)', status: 'real', badge: 'TF-IDF, not embeddings', detail: 'Chunks real SEC filing text and ranks passages by genuine cosine similarity to a query. Lexical retrieval, not a dense embedding model — a real, honest tradeoff, not the ceiling of what’s possible here.' },
 ]
 
 const STACK = [

@@ -10,9 +10,11 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from filings import list_filings, get_filing_section, governance_risk_signal
+from knowledge_graph import build_sector_graph, graph_to_json, peers_of
 from live_market import fetch_live_indicators
 from news import news_event_risk_signal, fetch_headlines, build_query
 from orchestrator import run_investigation, run_portfolio_investigation
+from rag import search_filing_section
 from report_agent import generate_report_with_critique, generate_portfolio_report
 from risk_scoring import stock_risk_score as _stock_risk_score, risk_label as _risk_label
 from sentiment import score_headlines, sentiment_summary, sentiment_price_divergence
@@ -201,6 +203,87 @@ def filing_section(ticker: str, accession_no: str, document_url: str, section: s
         raise HTTPException(status_code=404, detail=str(exc))
     except requests.exceptions.RequestException as exc:
         raise HTTPException(status_code=502, detail=f"Could not fetch filing document: {exc}")
+
+
+def _latest_filing_section_text(ticker: str, section: str = "risk_factors") -> tuple[str, dict] | tuple[None, None]:
+    """Real filing text for a ticker's most recent filing that has the requested section —
+    tries each collected filing newest-first until one actually has the section (an 8-K, for
+    instance, has neither risk_factors nor mdna, so this isn't a single-filing assumption)."""
+    filings = list_filings(ticker)
+    for f in filings:
+        try:
+            result = get_filing_section(ticker, f["accession_no"], f["document_url"], section)
+            return result["text"], f
+        except (ValueError, requests.exceptions.RequestException):
+            continue
+    return None, None
+
+
+@app.get("/api/evidence-search/{ticker}")
+def evidence_search(ticker: str, q: str, section: str = "risk_factors"):
+    """Real RAG over real SEC filing text (backend/rag.py) — ROADMAP.md §21's evidence-first
+    vision, honestly scoped (TF-IDF retrieval, not a dense embedding model — see rag.py's
+    docstring for why that's a real engineering tradeoff, not a shortcut). Chunks the ticker's
+    most recent filing section and returns the passages most relevant to the query, ranked by
+    real cosine similarity — not the whole section, not a substring match.
+    """
+    text, filing = _latest_filing_section_text(ticker, section)
+    if text is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No collected filing with a '{section}' section for '{ticker}' — try scripts/sec_filings.py or scripts/add_filings.py to collect one.",
+        )
+
+    passages = search_filing_section(text, q)
+    return {
+        "ticker": ticker.upper(),
+        "query": q,
+        "section": section,
+        "source_filing": {"form_type": filing["form_type"], "filed_at": filing["filed_at"], "document_url": filing["document_url"]},
+        "passages": passages,
+        "note": (
+            "Real TF-IDF retrieval over the actual text of this filing — each passage's score is "
+            "a genuine cosine similarity to your query, not a fabricated relevance number. "
+            "Lexical (word-overlap) retrieval, not semantic/dense-embedding retrieval — a query "
+            "using different words than the filing may not match even if the concept is the same."
+        ),
+    }
+
+
+@app.get("/api/graph")
+def knowledge_graph(tickers: str):
+    """Real knowledge graph (backend/knowledge_graph.py) — ROADMAP.md §15-16, honestly scoped.
+    Builds a graph over exactly the given tickers (e.g. a watchlist) with one real relationship
+    type: same_sector, derived from real live company sector data. NOT a claim of supplier/
+    customer/competitor relationships this project has no real data source for.
+    """
+    ticker_list = [t.strip().upper() for t in tickers.split(",") if t.strip()]
+    companies = []
+    for t in ticker_list:
+        info = _get_company_info(t)
+        companies.append({"ticker": t, **(info or {})})
+
+    graph = build_sector_graph(companies)
+    payload = graph_to_json(graph)
+    payload["note"] = (
+        "Real graph over the given tickers only — not the whole market. One relationship type, "
+        "same_sector, from real live company data. No supplier/customer/competitor edges: this "
+        "project has no real data source for those, so none are fabricated."
+    )
+    return payload
+
+
+@app.get("/api/graph/{ticker}/peers")
+def graph_peers(ticker: str, tickers: str):
+    """Real graph query: which of the given tickers share a real sector with this one —
+    genuine second-order lookup via backend/knowledge_graph.py's peers_of(), not a re-derivation.
+    """
+    ticker_list = [t.strip().upper() for t in tickers.split(",") if t.strip()]
+    if ticker.upper() not in ticker_list:
+        ticker_list.append(ticker.upper())
+    companies = [{"ticker": t, **(_get_company_info(t) or {})} for t in ticker_list]
+    graph = build_sector_graph(companies)
+    return {"ticker": ticker.upper(), "peers": peers_of(graph, ticker)}
 
 
 # The full 17-category taxonomy from the product vision (Liquidity, Credit, Supply Chain, ESG,
@@ -533,14 +616,21 @@ def report(ticker: str):
     every claim labeled FACT / MODEL PREDICTION / AI INTERPRETATION per the evidence-first
     principle in ROADMAP.md §21. A deterministic Critic Agent (backend/critic_agent.py) then
     checks evidence sufficiency and can send the report back for one revision with specific
-    concerns attached — see report_agent.py's generate_report_with_critique().
+    concerns attached — see report_agent.py's generate_report_with_critique(). Also retrieves
+    real excerpts from the ticker's SEC filing (backend/rag.py) when one is collected, grounding
+    the report in real filing language, not just the taxonomy's numeric scores.
     """
     taxonomy = _build_taxonomy(ticker)
     trend = _compute_trend(ticker)
     forecast = _compute_forecast(ticker)
 
+    filing_excerpts = None
+    text, _ = _latest_filing_section_text(ticker)
+    if text:
+        filing_excerpts = search_filing_section(text, "financial risk factors litigation regulatory")
+
     try:
-        return generate_report_with_critique(ticker, taxonomy, trend, forecast)
+        return generate_report_with_critique(ticker, taxonomy, trend, forecast, filing_excerpts=filing_excerpts)
     except RuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc))
 

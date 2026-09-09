@@ -29,8 +29,11 @@ _MODEL = "openai/gpt-oss-120b"
 
 _SYSTEM_PROMPT = """You are a financial risk report writer. You will be given ONLY real,
 already-computed data about a stock: a risk score, a historical trend, a model-predicted
-probability, and evidence-linked risk factors. Do not invent, estimate, or adjust any number —
-use only the numbers given to you, verbatim.
+probability, evidence-linked risk factors, and sometimes real excerpts retrieved from the
+company's actual SEC filing. Do not invent, estimate, or adjust any number — use only the
+numbers given to you, verbatim. If filing excerpts are provided, you may reference or briefly
+quote them as FACT (they are real filing text), but never paraphrase them into a claim they
+don't actually support.
 
 Write a short report (4-6 sentences) explaining the company's current risk situation in plain
 language. Then, on separate lines, output 3-5 individual claims from your report, each prefixed
@@ -70,7 +73,10 @@ def _get_client() -> Groq | None:
     return Groq(api_key=api_key)
 
 
-def _build_input_summary(ticker: str, taxonomy: dict, trend: dict | None, forecast: dict | None) -> str:
+def _build_input_summary(
+    ticker: str, taxonomy: dict, trend: dict | None, forecast: dict | None,
+    filing_excerpts: list[dict] | None = None,
+) -> str:
     fri = taxonomy.get("fri") or {}
     categories = taxonomy.get("categories") or {}
 
@@ -100,6 +106,11 @@ def _build_input_summary(ticker: str, taxonomy: dict, trend: dict | None, foreca
             f"points over the next {forecast.get('horizon_trading_days', 30)} trading days "
             f"(trained model, test ROC-AUC {forecast.get('model_test_metrics', {}).get('roc_auc')})."
         )
+
+    if filing_excerpts:
+        lines.append("Relevant excerpts from the company's real SEC filing (retrieved via TF-IDF search, not the full document):")
+        for p in filing_excerpts[:2]:
+            lines.append(f'  "{p["text"][:400]}"')
 
     return "\n".join(lines)
 
@@ -177,12 +188,17 @@ def generate_report(ticker: str, taxonomy: dict, trend: dict | None, forecast: d
 
 
 def generate_report_with_critique(
-    ticker: str, taxonomy: dict, trend: dict | None, forecast: dict | None
+    ticker: str, taxonomy: dict, trend: dict | None, forecast: dict | None,
+    filing_excerpts: list[dict] | None = None,
 ) -> dict:
     """First real agentic feedback loop (ROADMAP.md §18): generates a report, runs it past the
     Critic Agent's deterministic evidence-sufficiency check, and — if the Critic finds real
     issues — sends it back to the LLM for ONE revision pass with the specific concerns attached,
     rather than accepting the first draft unconditionally.
+
+    `filing_excerpts`, when provided, are real passages retrieved by backend/rag.py from the
+    ticker's actual SEC filing text — grounds the report in real filing language, not just the
+    taxonomy's numeric scores, per ROADMAP.md §21's evidence-first RAG vision.
     """
     from critic_agent import critique, MAX_REVISIONS
     from evidence_verifier import verify_claims, summarize as summarize_verification
@@ -191,7 +207,7 @@ def generate_report_with_critique(
     if client is None:
         raise RuntimeError("No Groq API key configured (set GROQ_API_KEY or config/api_keys.yaml's groq_api_key)")
 
-    user_content = _build_input_summary(ticker, taxonomy, trend, forecast)
+    user_content = _build_input_summary(ticker, taxonomy, trend, forecast, filing_excerpts=filing_excerpts)
     raw = _call_llm(client, user_content)
     report_text, labeled_claims = _parse_response(raw)
 
