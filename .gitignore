@@ -6,6 +6,8 @@ __pycache__/
 # Node / frontend
 node_modules/
 dist/
+.env.local
+frontend/.env.local
 
 # Secrets — real API keys live here, never commit
 config/api_keys.yaml

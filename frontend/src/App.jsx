@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import SiteNav from './components/SiteNav'
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
 const WATCHLIST_KEY = 'finguard_watchlist'
@@ -1004,7 +1005,7 @@ function TickerLookup({ initialTicker, onConsumeInitial }) {
   )
 }
 
-function App() {
+function AppShell() {
   const [tab, setTab] = useState('watchlist')
   const [pendingTicker, setPendingTicker] = useState(null)
 
@@ -1014,12 +1015,10 @@ function App() {
   }
 
   return (
-    <div className="page">
+    <>
+      <SiteNav />
+      <div className="page">
       <header className="topbar">
-        <div>
-          <p className="eyebrow">FINANCIAL INTELLIGENCE</p>
-          <h1>FinGuard AI</h1>
-        </div>
         <div className="tab-switch">
           <button
             className={`tab-btn ${tab === 'watchlist' ? 'active' : ''}`}
@@ -1041,8 +1040,9 @@ function App() {
       ) : (
         <TickerLookup initialTicker={pendingTicker} onConsumeInitial={() => setPendingTicker(null)} />
       )}
-    </div>
+      </div>
+    </>
   )
 }
 
-export default App
+export default AppShell
