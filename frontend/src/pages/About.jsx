@@ -86,6 +86,25 @@ export default function About() {
           </div>
         </section>
 
+        <section className="section">
+          <p className="section-label">Not a finished product</p>
+          <h2 className="section-title">What would it actually take to trust this?</h2>
+          <p className="section-lede">
+            This is a research/triage demo, not investment advice — and the gap between the two
+            is real, not just a disclaimer. The honest path from here: outcome-validated scoring
+            (does a high risk score actually predict real drawdowns, measured against history),
+            redundant SLA-backed data feeds instead of free tiers, and a human always in the loop
+            reviewing what the system surfaces. Full accounting in{' '}
+            <a
+              href="https://github.com/goeldaksh06/FinguardAI/blob/main/docs/production-roadmap.md"
+              target="_blank"
+              rel="noreferrer"
+            >
+              docs/production-roadmap.md
+            </a>.
+          </p>
+        </section>
+
         <section className="section" style={{ borderBottom: 'none' }}>
           <div className="cta-band">
             <div>

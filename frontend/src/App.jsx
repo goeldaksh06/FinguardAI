@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import SiteNav from './components/SiteNav'
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
@@ -144,6 +145,7 @@ function PortfolioReportPanel({ tickers }) {
 
       {investigation && investigation.result.report && (
         <>
+          <DisclaimerBanner compact />
           {investigation.result.report.critic && (
             <p className="tester-hint">
               Portfolio Critic Agent: <strong>{investigation.result.report.critic.verdict}</strong>
@@ -766,6 +768,7 @@ function AIReportPanel({ ticker }) {
 
       {report && (
         <>
+          <DisclaimerBanner compact />
           {report.critic && (
             <p className="tester-hint">
               Critic Agent: <strong>{report.critic.verdict}</strong>
@@ -1005,6 +1008,26 @@ function TickerLookup({ initialTicker, onConsumeInitial }) {
   )
 }
 
+function DisclaimerBanner({ compact }) {
+  if (compact) {
+    return (
+      <p className="disclaimer-line">
+        Research tool, not investment advice. Scores are unvalidated heuristics — verify
+        independently before acting on anything shown here.
+      </p>
+    )
+  }
+  return (
+    <div className="disclaimer-banner">
+      <strong>Not investment advice.</strong> FinGuard is a research/triage tool built to
+      demonstrate honest AI engineering — real data, transparent scoring, and an LLM that's
+      checked rather than trusted blindly. The risk scores and forecasts are unvalidated
+      heuristics, not outcome-tested predictions, and should never be the sole basis for a
+      financial decision. See <Link to="/about">how it works</Link> for the full honest scope.
+    </div>
+  )
+}
+
 function AppShell() {
   const [tab, setTab] = useState('watchlist')
   const [pendingTicker, setPendingTicker] = useState(null)
@@ -1018,6 +1041,7 @@ function AppShell() {
     <>
       <SiteNav />
       <div className="page">
+      <DisclaimerBanner />
       <header className="topbar">
         <div className="tab-switch">
           <button

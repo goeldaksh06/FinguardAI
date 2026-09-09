@@ -1121,6 +1121,34 @@ h1 {
   color: var(--accent);
 }
 
+.disclaimer-banner {
+  background: var(--warn-soft);
+  border: 1px solid rgba(214, 162, 63, 0.3);
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--ink-dim);
+  margin-bottom: 20px;
+}
+
+.disclaimer-banner strong {
+  color: var(--warn);
+}
+
+.disclaimer-banner a {
+  color: var(--warn);
+  text-decoration: underline;
+}
+
+.disclaimer-line {
+  font-size: 12px;
+  color: var(--warn);
+  background: var(--warn-soft);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 0 0 14px;
+}
+
 /* ---------- About page ---------- */
 
 .about-hero {
